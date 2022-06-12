@@ -1,4 +1,8 @@
-@import 'constant';
+@import 'config';
+@import 'nav';
+@import 'utilities';
+@import 'buttons';
+
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +10,6 @@
 }
 
 body{
-    background-color: $primary-color;
+    background-color: $secondary-color;
 }
+@import 'mobile';
