@@ -1,0 +1,42 @@
+nav {
+  background-color: $third-color;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+  height: 7vh;
+}
+
+.brand {
+  padding-left: 20px;
+  font-family: $brand-font;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.nav-list {
+  display: flex;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 549px;
+
+    li {
+      padding-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      font-family: $main-font;
+      font-weight: 300;
+      font-size: 25px;
+
+      &:hover {
+        text-shadow: 1px 1px 5px #00000052;
+      }
+    }
+  }
+}

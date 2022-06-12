@@ -1,15 +1,20 @@
-@import 'config';
-@import 'nav';
-@import 'utilities';
-@import 'buttons';
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "config";
+@import "nav";
+@import "utilities";
+@import "buttons";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: $secondary-color;
+body {
+  font-size: 18px;
+  background-color: $secondary-color;
+  scroll-behavior: smooth;
 }
-@import 'mobile';
+@import "mobile";

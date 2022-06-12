@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  max-height: 93vh;
+  .left {
+    display: flex;
+    min-height: 93vh;
+    width: 50%;
+    background-color: $fifth-color;
+  }
+  .right {
+    display: flex;
+    min-height: 93vh;
+    width: 50%;
+    background-color: $fourth-color;
+  }
+}
