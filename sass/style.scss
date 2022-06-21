@@ -16,5 +16,6 @@ body {
   font-size: 18px;
   background-color: $secondary-color;
   scroll-behavior: smooth;
+  font-family: $main-font;
 }
 @import "mobile";

@@ -3,15 +3,9 @@
 nav {
   background-color: #b8d973;
   color: #0f2440;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 0px 5px;
   height: 7vh;
 }
@@ -24,27 +18,17 @@ nav {
 }
 
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .nav-list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style: none;
   padding-right: 549px;
 }
-
 .nav-list ul li {
   padding-right: 10px;
 }
-
 .nav-list ul a {
   text-decoration: none;
   color: #0f2440;
@@ -52,46 +36,54 @@ nav {
   font-weight: 300;
   font-size: 25px;
 }
-
 .nav-list ul a:hover {
-  text-shadow: 1px 1px 5px #00000052;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3215686275);
 }
 
 .home {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-height: 93vh;
 }
-
 .home .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 93vh;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  background-color: #f2935c;
 }
-
+.home .left .text {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home .left .text .name {
+  font-size: 2rem;
+}
+.home .left .text h1 {
+  font-size: 4rem;
+}
+.home .left .text p {
+  font-size: 1rem;
+}
 .home .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 93vh;
   width: 50%;
-  background-color: #264773;
 }
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   font-size: 18px;
   background-color: #f2efbd;
   scroll-behavior: smooth;
-}
-/*# sourceMappingURL=style.css.map */
+  font-family: "Oswald", sans-serif;
+}/*# sourceMappingURL=style.css.map */
