@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: #f2efbd;
+  scroll-behavior: smooth;
+  font-family: "Oswald", sans-serif;
+}
+
 nav {
   background-color: #b8d973;
   color: #0f2440;
@@ -27,7 +40,7 @@ nav {
   padding-right: 549px;
 }
 .nav-list ul li {
-  padding-right: 10px;
+  padding-left: 30px;
 }
 .nav-list ul a {
   text-decoration: none;
@@ -40,18 +53,28 @@ nav {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3215686275);
 }
 
+.active li a {
+  font-weight: 400;
+}
+
 .home {
   display: flex;
   max-height: 93vh;
 }
-.home .left {
+.home .right {
+  display: flex;
+  min-height: 93vh;
+  width: 50%;
+}
+
+.left {
   display: flex;
   min-height: 93vh;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
-.home .left .text {
+.left .text {
   display: flex;
   width: 85%;
   flex-direction: column;
@@ -60,30 +83,15 @@ nav {
   align-items: center;
   text-align: center;
 }
-.home .left .text .name {
-  font-size: 2rem;
+.left .text .name {
+  font-size: 2.5rem;
+  font-weight: 400;
 }
-.home .left .text h1 {
+.left .text h1 {
   font-size: 4rem;
+  font-weight: 500;
 }
-.home .left .text p {
-  font-size: 1rem;
-}
-.home .right {
-  display: flex;
-  min-height: 93vh;
-  width: 50%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 18px;
-  background-color: #f2efbd;
-  scroll-behavior: smooth;
-  font-family: "Oswald", sans-serif;
+.left .text p {
+  font-size: 1.5rem;
+  font-weight: 200;
 }/*# sourceMappingURL=style.css.map */

@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 @import "config";
-@import "nav";
-@import "utilities";
-@import "buttons";
+
 
 * {
   margin: 0;
@@ -18,4 +16,9 @@ body {
   scroll-behavior: smooth;
   font-family: $main-font;
 }
+
+@import "nav";
+@import "utilities";
+@import "buttons";
+@import "left";
 @import "mobile";

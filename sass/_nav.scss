@@ -25,7 +25,7 @@ nav {
     padding-right: 549px;
 
     li {
-      padding-right: 10px;
+      padding-left: 30px;
     }
     a {
       text-decoration: none;
@@ -37,6 +37,14 @@ nav {
       &:hover {
         text-shadow: 1px 1px 5px #00000052;
       }
+    }
+  }
+}
+
+.active {
+  li {
+    a {
+      font-weight: 400;
     }
   }
 }

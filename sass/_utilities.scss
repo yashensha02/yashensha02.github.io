@@ -1,33 +1,7 @@
 .home {
   display: flex;
   max-height: 93vh;
-  .left {
-    display: flex;
-    min-height: 93vh;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    // background-color: $fifth-color;
-    .text {
-      // background-color: $primary-color;
-      display: flex;
-      width: 85%;
-      flex-direction: column;
-      height: 85vh;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      .name {
-        font-size: 2rem;
-      }
-      h1 {
-        font-size: 4rem;
-      }
-      p {
-        font-size: 1rem;
-      }
-    }
-  }
+  
   .right {
     display: flex;
     min-height: 93vh;
