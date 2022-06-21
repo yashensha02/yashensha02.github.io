@@ -3,7 +3,6 @@
 
 @import "config";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +12,7 @@
 body {
   font-size: 18px;
   background-color: $secondary-color;
+  max-height: 100vh;
   scroll-behavior: smooth;
   font-family: $main-font;
 }

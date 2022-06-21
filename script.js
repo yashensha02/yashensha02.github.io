@@ -1,16 +1,21 @@
 function imageLoad() {
   let images = [
-    "./images/shika.png",
-    "./images/rengoku.png",
-    "./images/uzamaki.png",
-    "./images/5ede491bb760540004f2c5e1.png",
-    "./images/5ede4947b760540004f2c5e2.png",
-    "./images/5ede49b5b760540004f2c5e5.png",
-    "./images/thanjiro.png"
-
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
   ];
   const random = Math.floor(Math.random() * images.length);
   let image = images[random];
-  document.getElementById("changeImage").src = `${image}`;
+  document.getElementById("changeImage").src = `./images/${image}.png`;
   console.log(image);
 }

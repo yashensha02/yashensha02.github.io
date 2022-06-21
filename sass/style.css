@@ -9,6 +9,7 @@
 body {
   font-size: 18px;
   background-color: #f2efbd;
+  max-height: 100vh;
   scroll-behavior: smooth;
   font-family: "Oswald", sans-serif;
 }
