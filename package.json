@@ -1,0 +1,20 @@
+{
+  "name": "Yashensha | Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass/style.scss -o style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashensha02/yashensha02.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashensha02/yashensha02.github.io/issues"
+  },
+  "homepage": "https://github.com/yashensha02/yashensha02.github.io#readme"
+}

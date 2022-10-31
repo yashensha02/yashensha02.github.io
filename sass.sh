@@ -13,4 +13,4 @@ RED='\e[31m'
 
 echo -e "${BLACK}${GREEN_BG}Sass file started compiling.....${RESET_ALL}"
 
-node-sass -w scss/style.scss style.css;
+node-sass -w sass/style.scss -o style.css;
